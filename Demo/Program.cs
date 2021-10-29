@@ -6,7 +6,9 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator objCalculator = new Calculator();
+            Console.WriteLine("total values"+objCalculator.isDiff(30,20));
+            Console.ReadKey();
         }
     }
 }
